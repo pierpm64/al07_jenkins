@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.plugins.artifact__manager__jclouds.s3.S3BlobStoreConfig plugin="artifact-manager-s3@1.15">
+  <container>al07-prod</container>
+  <prefix>target/</prefix>
+  <usePathStyleUrl>false</usePathStyleUrl>
+  <useHttp>true</useHttp>
+  <disableSessionToken>true</disableSessionToken>
+  <customEndpoint></customEndpoint>
+  <customSigningRegion></customSigningRegion>
+  <deleteArtifacts>false</deleteArtifacts>
+  <deleteStashes>false</deleteStashes>
+</io.jenkins.plugins.artifact__manager__jclouds.s3.S3BlobStoreConfig>
